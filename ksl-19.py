@@ -11,4 +11,4 @@ if (m := input("Choose: ")) == 'a':
 elif m == 'b':
     print(round(float(input("How many liters: ")) * .26, 2))
 else:
-    print("Wrong input")
+    print("Wrong choice, please enter only a or b")
